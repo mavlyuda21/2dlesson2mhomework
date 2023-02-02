@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		9AB5807A298C0D4E003EF999 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AB58079298C0D4E003EF999 /* main.swift */; };
+		9AB58081298C0EB1003EF999 /* Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AB58080298C0EB1003EF999 /* Client.swift */; };
+		9AB58083298C0F3B003EF999 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AB58082298C0F3B003EF999 /* Card.swift */; };
+		9AB58085298C10DB003EF999 /* Bank.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AB58084298C10DB003EF999 /* Bank.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,9 @@
 /* Begin PBXFileReference section */
 		9AB58076298C0D4E003EF999 /* 2dlesson2mhomework */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = 2dlesson2mhomework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AB58079298C0D4E003EF999 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		9AB58080298C0EB1003EF999 /* Client.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Client.swift; sourceTree = "<group>"; };
+		9AB58082298C0F3B003EF999 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		9AB58084298C10DB003EF999 /* Bank.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bank.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,9 @@
 			isa = PBXGroup;
 			children = (
 				9AB58079298C0D4E003EF999 /* main.swift */,
+				9AB58080298C0EB1003EF999 /* Client.swift */,
+				9AB58082298C0F3B003EF999 /* Card.swift */,
+				9AB58084298C10DB003EF999 /* Bank.swift */,
 			);
 			path = 2dlesson2mhomework;
 			sourceTree = "<group>";
@@ -120,6 +129,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9AB58081298C0EB1003EF999 /* Client.swift in Sources */,
+				9AB58085298C10DB003EF999 /* Bank.swift in Sources */,
+				9AB58083298C0F3B003EF999 /* Card.swift in Sources */,
 				9AB5807A298C0D4E003EF999 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
